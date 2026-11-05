@@ -32,6 +32,14 @@ Film Junky Union, una comunidad de aficionados al cine clásico, está desarroll
 | Modelo 4 | TF-IDF + spaCy | LightGBM | 0,86 |
 | Modelo 9 | BERT (muestra) | Regresión logística | 0,76 |
 
+## Gráficas
+
+**Análisis exploratorio: reseñas por año y polaridad en entrenamiento y prueba**
+![Análisis exploratorio: reseñas por año y polaridad en entrenamiento y prueba](images/eda_polaridad_por_anio.png)
+
+**Evaluación del modelo TF-IDF + NLTK + regresión logística (F1, ROC y PRC)**
+![Evaluación del modelo TF-IDF + NLTK + regresión logística (F1, ROC y PRC)](images/evaluacion_modelo_tfidf_nltk.png)
+
 ## Conclusiones
 
 - Los modelos con TF-IDF y regresión logística superan el umbral de 0,85 y son rápidos de entrenar.
