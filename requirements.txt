@@ -1,0 +1,12 @@
+lightgbm
+matplotlib
+nltk
+numpy
+pandas
+seaborn
+scikit-learn
+spacy
+torch
+tqdm
+transformers
+jupyter
